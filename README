@@ -1,18 +1,45 @@
 === LATEST NEWS AND INFORMATION ===
 
-Version: 0.1
+Current Version: 0.1
 Author: PressBuddies
 URL: http://geopress.my
 
 === DESCRIPTION ===
 
 GeoPress is the world's first entirely OpenSource Geo-Tagging Platform....
-More to come soon, just getting my head around my first GitHub project...
+
+Install GeoPress on your own server, create maps, places and start checking-in.
+You can create both private and public places, leave full HTML content
+for both checkins and place descriptions.
+
+However, please note that at present, GeoPress is in an EXTREMELY alpha state.
+It has been released now to the public not only as a way to demonstrate what is
+possible with BackPress - http://backpress.org - but to more importantly get
+people to start thinking about the importance of such a platform.
+
+With information as sensitive as geo-location, it is essential for there to be
+an entirely OpenSource platform that people can host themselves, allowing other
+networks to use the information they decide, rather than letting other people
+own such personal information.
+
+The future of GeoPress is one where people can create the own geo-social role-playing
+worlds, challenges and adventures, whilst also acting as a way for people to simply
+more easily create, manage and share maps and other geo-relevant information.
+
+As the GeoPress continues to grow and reach closer to version 1.0, we will see
+a number of exciting new features and possibilities open-up. With themes, plugins
+and other ways to customise the experience, GeoPress has been designed specifically
+for geo-tagging and will at all times strive to be as mobile and cross-device
+compatible as it can, but again, at this point, for version 0.1, we have cut a
+few corners and missed out on hundreds of features we wanted to include, but
+time is of the essence, and want people to take a look and start providing feedback,
+for without the support of the OpenSource community, this project may never see the light...
 
 
 === INSTALLATION ===
 
-* Checkout the source from subversion: http://svn.geopress.my/trunk/
+* Checkout the source from GitHub: git@github.com:msmalley/GeoPress.git
+* Visit https://github.com/msmalley/GeoPress to download source as ZIP
 * Copy gp-config-sample.php to gp-config.php and edit the information inside
 * Visit the URL where you put the files and GeoPress will be installed in a second
 * Don't forget to create the .htaccess file, mentioned by the installer script
