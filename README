@@ -1,0 +1,90 @@
+=== LATEST NEWS AND INFORMATION ===
+
+Version: 0.1
+Author: PressBuddies
+URL: http://geopress.my
+
+=== DESCRIPTION ===
+
+GeoPress is the world's first entirely OpenSource Geo-Tagging Platform....
+More to come soon, just getting my head around my first GitHub project...
+
+
+=== INSTALLATION ===
+
+* Checkout the source from subversion: http://svn.geopress.my/trunk/
+* Copy gp-config-sample.php to gp-config.php and edit the information inside
+* Visit the URL where you put the files and GeoPress will be installed in a second
+* Don't forget to create the .htaccess file, mentioned by the installer script
+
+
+=== UPGRADING ===
+
+* Run GIT in your local checkout directory
+* Or download directly from - http://geopress.my/downloads/
+* Visit <geopress-root>/install.php?action=upgrade
+
+
+=== CHANGELOG ===
+
+== 0.1 - XX/MARCH/2011 ==
+* DB SCHEMA for Maps, Places and Checkins
+* PERMALINKS for Maps, Places and Checkins
+* FORMS AND VIEWS for Maps, Places and Checkins
+* WYSIWYG Text-Areas for Descriptions
+* LESS.CSS(JS) FOR UI CSS FRAMEWORK
+* Private Maps and Private Places
+* Display Settings per Map
+* Show Either Places or Checkins
+* Markers on Maps Link to Places or Checkins
+* Checkin Markers Link to Places
+* Place Pages Contain Checkin Links
+* ADDED Checkin Links to Places.php
+* ADDED Display Types for Maps (Checkins or Places)
+* ADDED 2 MAPS AT INSTALL (Checkins and Places)
+* ADDED FLUID CSS SUPPORT UP-TO MINIMUM OF 300PX WIDE
+* 3/2/1 COLUMN LAYOUT AUTOMATICALLY ADJUSTED
+* Pick Your Own Username / Password at Sign-Up
+
+=== ROADMAP ===
+
+== PRIOR to 0.2 ==
+* Improved / Consolidated Header Functions
+* Proper Utilization of Head.js (used only for CSS classes in 0.1)
+* All Complex VAR Functions should be ARG Based
+* ADD NEW PLACE button / function for Checkin pages...
+* AJAX LOAD MORE (Default 10) on ALL LISTS
+* Replace Geo-Location Methods with New W3C Standards
+* FULLY HTML 5 / CROSS-BROWSER / CROSS-RESOLUTION / CROSS-DEVICE
+
+== PRIOR to 0.3 ==
+* Dashboard / Homepage for Default Theme
+* Provide Options Page
+* New Markers and InfoWindows
+* Options for displaying content in markers or outside...
+* Remove Logo (and replace with site name) from Front-End of Theme
+
+== PRIOR to 0.4 ==
+* Allow for User / Friend Management
+* Replace Lingo references to "I" with Username
+
+== PRIOR to 0.5 ==
+* Threaded Commenting
+
+== PRIOR to 0.6 ==
+* Customisable Modes of Transport
+* Customisable Lingo
+
+== PRIOR to 0.7 ==
+* Working Theme System
+
+== PRIOR to 0.8 ==
+* Working Plugin System
+
+== PRIOR to 0.9 ==
+* Import / Export Data
+
+== PRIOR to 1.0 ==
+* Third-Party Data / Visual Integration
+* Allow for Other Map Selections
+* Provide Online Hosted Version
