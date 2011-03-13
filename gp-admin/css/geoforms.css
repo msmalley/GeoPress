@@ -1,0 +1,36 @@
+/* BACK-END - PLACES */
+.gp_mapcanvas_wrapper, 
+.floating_wrapper {
+	clear:both;
+	float:left;
+	position:relative;
+	width:98%;
+	padding:10px 1%;
+	background:#FFF;
+	border:1px solid #DDD;
+	margin:15px 0 15px 0;
+}
+.gp_mapcanvas {
+	position:relative;
+	width:100%;
+}
+
+.floating_wrapper .map-meta {
+	clear:both;
+	float:left;
+	width:68%;
+	padding:8px 1%;
+}
+.floating_wrapper .map-actions {
+	clear:none;
+	float:left;
+	width:28%;
+	padding:8px 1%;
+}
+
+/* TEMPORARY STYLE FOR SCREENSHOTS */
+.gp_mapcanvas_frontend {
+	position:relative;
+	width:100%;
+	border:1px solid #CCC;
+}

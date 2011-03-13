@@ -1,0 +1,43 @@
+/* GeoPress CSS UI Framework */
+
+@primary_bg_top: #FEFEFE;
+@primary_bg_bottom: #EEEEEE;
+@secondary_bg_top: #EEEEEE;
+@secondary_bg_bottom: #DDDDDD;
+@active_bg_top: #EF007A;
+@active_bg_bottom: #CC0066;
+
+@primary_color: #555555;
+@secondary_color: #333333;
+@active_color: #FFFFFF;
+
+@fonts: "Trebuchet MS", Verdana, sans-serif;
+
+.gradient_primary {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(@primary_bg_top), to(@primary_bg_bottom)); 
+	background: -moz-linear-gradient(top, @primary_bg_top, @primary_bg_bottom); 
+	-pie-background: linear-gradient(90deg, @primary_bg_bottom, @primary_bg_top); 
+	behavior: url(gp-admin/css/PIE.php);
+}
+.rounded_all_10 (@radius: 10px) {
+  	-moz-border-radius: @radius;
+  	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+.dshadow_2d {
+	-moz-box-shadow: 2px 2px 5px #DDD; 
+	box-shadow: 2px 2px 5px #DDD; 
+	-webkit-box-shadow: 2px 2px 5px #DDD; 
+	behavior: url(gp-admin/css/PIE.php);
+}
+.floating_box {
+	.gradient_primary;
+	.rounded_all_10;
+	.dshadow_2d;
+}
+
+/* USING THE FRAMEWORK */
+
+#login-wrapper {
+	.floating_box;
+}

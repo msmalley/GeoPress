@@ -3,6 +3,7 @@
 Current Version: 0.1
 Author: PressBuddies
 URL: http://geopress.my
+License: GNU3
 
 === DESCRIPTION ===
 
@@ -19,6 +20,11 @@ The future of GeoPress is one where people can create the own geo-social role-pl
 As the GeoPress continues to grow and reach closer to version 1.0, we will see a number of exciting new features and possibilities open-up. With themes, plugins and other ways to customise the experience, GeoPress has been designed specifically for geo-tagging and will at all times strive to be as mobile and cross-device compatible as it can, but again, at this point, for version 0.1, we have cut a few corners and missed out on hundreds of features we wanted to include, but time is of the essence, and want people to take a look and start providing feedback, for without the support of the OpenSource community, this project may never see the light...
 
 
+=== REQUIREMENTS ===
+* PHP 5.2+
+* MySQL 4+
+
+
 === INSTALLATION ===
 
 * Checkout the source from GitHub: git@github.com:msmalley/GeoPress.git
@@ -26,6 +32,10 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 * Copy gp-config-sample.php to gp-config.php and edit the information inside
 * Visit the URL where you put the files and GeoPress will be installed in a second
 * Don't forget to create the .htaccess file, mentioned by the installer script
+
+
+=== SUPPORT ===
+* Limited Support is Available via http://geopress.my
 
 
 === UPGRADING ===
@@ -66,6 +76,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 * AJAX LOAD MORE (Default 10) on ALL LISTS
 * Replace Geo-Location Methods with New W3C Standards
 * FULLY HTML 5 / CROSS-BROWSER / CROSS-RESOLUTION / CROSS-DEVICE
+* Increased Font-Size for Smaller (Mobile) Screens
 
 == PRIOR to 0.3 ==
 * geoRSS Support

@@ -1,0 +1,62 @@
+/* DECLARE VARIABLES */
+
+@bg_colour: #900;
+@link_colour: #FFF;
+@hover_colour: #CCC;
+@fonts: "Trebuchet MS", Verdana, sans-serif;
+
+.rounded_corners (@radius: 25px) {
+  	-moz-border-radius: @radius;
+  	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+
+
+
+
+
+/* USE VARIABLES */
+
+#header {
+	.rounded_corners;
+	background:@bg_colour;
+	font-family:@fonts;
+	a {
+		color:@link_colour;
+		font-weight:bold;
+		text-decoration: none;
+	}
+	a:hover {
+		color:@hover_colour;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin:-50px 0 0 -50px;
+}
+
+#header a {
+	clear:both;
+	float:left;
+	margin-top:35px;
+	width:100%;
+	text-align:center;
+}

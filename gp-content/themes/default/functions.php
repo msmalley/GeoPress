@@ -1,0 +1,5 @@
+<?php
+
+/* THEME FUNCTIIONS FOR LATER */
+
+?>

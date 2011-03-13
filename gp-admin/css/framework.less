@@ -1,0 +1,210 @@
+/* GeoPress CSS UI Framework */
+
+/* SET COLORS */
+@primary_bg_top: #FEFEFE;
+@primary_bg_bottom: #EEEEEE;
+@secondary_bg_top: #EEEEEE;
+@secondary_bg_bottom: #DDDDDD;
+@active_bg_top: #EF007A;
+@active_bg_bottom: #CC0066;
+@primary_border: #DDDDDD;
+@secondary_border: #CCCCCC;
+@active_border: #888888;
+@primary_color: #555555;
+@secondary_color: #333333;
+@active_color: #FFFFFF;
+
+/* SET RADIUS */
+@radius: 5px;
+@radius_extra: 10px;
+@radius_button: 20px;
+
+/* SET FONTS */
+@fonts: "Trebuchet MS", Verdana, sans-serif;
+
+/* SET BASICS */
+.centered {
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	padding: 0.5em 0;
+}
+.center {
+	font-weight:normal;
+	display:block;
+	text-align:center;
+	text-transform:capitalize;
+	padding: 0.5em 0;
+}
+
+/* SET GRADIENTS */
+.gradient_primary, 
+.meta-box-title {
+	background: @primary_bg_top;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(@primary_bg_top), to(@primary_bg_bottom)); 
+	background: -moz-linear-gradient(top, @primary_bg_top, @primary_bg_bottom); 
+	-pie-background: linear-gradient(90deg, @primary_bg_bottom, @primary_bg_top); 
+	behavior: url(PIE.php);
+}
+.gradient_secondary {
+	background: @secondary_bg_top;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(@secondary_bg_top), to(@secondary_bg_bottom)); 
+	background: -moz-linear-gradient(top, @secondary_bg_top, @secondary_bg_bottom); 
+	-pie-background: linear-gradient(90deg, @secondary_bg_bottom, @secondary_bg_top); 
+	behavior: url(PIE.php);
+}
+.gradient_active {
+	background: @active_bg_top;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(@active_bg_top), to(@active_bg_bottom)); 
+	background: -moz-linear-gradient(top, @active_bg_top, @active_bg_bottom); 
+	-pie-background: linear-gradient(90deg, @active_bg_bottom, @active_bg_top); 
+	behavior: url(PIE.php);
+}
+.gradient_active_hover {
+	background: @active_bg_bottom;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(@active_bg_bottom), to(@active_bg_top)); 
+	background: -moz-linear-gradient(top, @active_bg_bottom, @active_bg_top); 
+	-pie-background: linear-gradient(90deg, @active_bg_top, @active_bg_bottom); 
+	behavior: url(PIE.php);
+}
+
+/* SET ROUNDED CORNERS */
+.rounded_all {
+  	-moz-border-radius: @radius;
+  	-webkit-border-radius: @radius;
+	border-radius: @radius;
+	behavior: url(PIE.php);
+}
+.rounded_all_extra {
+  	-moz-border-radius: @radius_extra;
+  	-webkit-border-radius: @radius_extra;
+	border-radius: @radius_extra;
+	behavior: url(PIE.php);
+}
+.rounded_all_button {
+  	-moz-border-radius: @radius_button;
+  	-webkit-border-radius: @radius_button;
+	border-radius: @radius_button;
+	behavior: url(PIE.php);
+}
+.rounded_top {
+	-moz-border-radius-topright: @radius; 
+	-webkit-border-top-right-radius: @radius; 
+	border-top-right-radius: @radius;
+	-moz-border-radius-topleft: @radius; 
+	-webkit-border-top-left-radius: @radius; 
+	border-top-left-radius: @radius;
+	behavior: url(PIE.php);
+}
+.rounded_bottom_extra {
+	-moz-border-radius-bottomright: @radius_extra; 
+	-webkit-border-bottom-right-radius: @radius_extra; 
+	border-bottom-right-radius: @radius_extra;
+	-moz-border-radius-bottomleft: @radius_extra; 
+	-webkit-border-bottom-left-radius: @radius_extra; 
+	border-bottom-left-radius: @radius_extra;
+	behavior: url(PIE.php);
+}
+
+/* SET SHADOWS */
+.dshadow_2d {
+	-moz-box-shadow: 2px 2px 5px #DDD; 
+	box-shadow: 2px 2px 5px #DDD; 
+	-webkit-box-shadow: 2px 2px 5px #DDD; 
+	behavior: url(PIE.php);
+}
+
+/* SET UI ELEMENTS */
+.ui_button {
+	.centered;
+	.gradient_active;
+  	.rounded_all_button;
+	border:1px solid @active_border;
+	color:@active_color;
+	padding:2px 12px;
+	cursor:pointer;
+	font-size:12px;
+	height:28px;
+	outline:none;
+	behavior: url(PIE.php);
+}
+.ui_button_hover {
+	.centered;
+	.gradient_active_hover;
+  	.rounded_all_button;
+	border:1px solid @active_border;
+	color:@active_color;
+	padding:2px 12px;
+	cursor:pointer;
+	font-size:12px;
+	height:28px;
+	outline:none;
+	behavior: url(PIE.php);
+}
+.input_wrapper, 
+.gpress_mapcanvas_wrapper {
+	.rounded_all;
+}
+.floating_wrapper {
+	.rounded_all_extra;
+}
+.floating_box {
+	.gradient_primary;
+	.rounded_all_extra;
+	.dshadow_2d;
+}
+.fixed_box {
+	.gradient_primary;
+	.rounded_bottom_extra;
+}
+.primary_title {
+	.gradient_secondary;
+	.rounded_all;
+	border:1px solid @secondary_border;
+	color:@secondary_color;
+	behavior: url(PIE.php);
+}
+.secondary_title {
+	.gradient_primary;
+	.rounded_top;
+	border:1px solid @secondary_border;
+	color:@primary_color;
+	behavior: url(PIE.php);
+}
+.notes {
+	.rounded_all;
+	.centered;
+}
+p.actionlist.secondary {
+	clear:both;
+	float:left;
+	width:auto;
+}
+p.actionlist.secondary a {
+	.ui_button;
+	height:21px;
+}
+p.actionlist.secondary a:hover {
+	.ui_button_hover;
+	height:21px;
+}
+.map-actions a.edit, 
+.map-actions a.view {
+	.ui_button;
+	height:21px;
+	float:right;
+	display:inline;
+	width:auto;
+	margin:0 0 0 10px;
+}
+.map-actions a.edit:hover, 
+.map-actions a.view:hover {
+	.ui_button_hover;
+	height:21px;
+	float:right;
+	display:inline;
+	width:auto;
+	color:@active_color !important;
+	margin:0 0 0 10px;
+}
