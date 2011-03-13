@@ -41,7 +41,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 === UPGRADING ===
 
 * Run GIT in your local checkout directory
-* Or download directly from - http://geopress.my/downloads/
+* Or download directly from - https://github.com/msmalley/GeoPress
 * Visit <geopress-root>/install.php?action=upgrade
 
 
@@ -105,6 +105,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 * Working Plugin System
 
 == PRIOR to 0.9 ==
+* Interoperability (Seeded Installs)
 * Import / Export Data
 
 == PRIOR to 1.0 ==
