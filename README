@@ -37,7 +37,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 
 === CHANGELOG ===
 
-== 0.1 - XX/MARCH/2011 ==
+== 0.1 - 13/MARCH/2011 ==
 * DB SCHEMA for Maps, Places and Checkins
 * PERMALINKS for Maps, Places and Checkins
 * FORMS AND VIEWS for Maps, Places and Checkins
@@ -68,6 +68,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 * FULLY HTML 5 / CROSS-BROWSER / CROSS-RESOLUTION / CROSS-DEVICE
 
 == PRIOR to 0.3 ==
+* geoRSS Support
 * Dashboard / Homepage for Default Theme
 * Provide Options Page
 * New Markers and InfoWindows
@@ -75,6 +76,7 @@ As the GeoPress continues to grow and reach closer to version 1.0, we will see a
 * Remove Logo (and replace with site name) from Front-End of Theme
 
 == PRIOR to 0.4 ==
+* Add Tracks and Trails (connecting checkins)
 * Allow for User / Friend Management
 * Replace Lingo references to "I" with Username
 
